@@ -1,8 +1,5 @@
-  from flask import Flask, request
+  from flask import Flask, request, render_template, redirect, url_for
   import requests
-  from time import sleep
-  import time
-  from datetime import datetime
   app = Flask(__name__)
   app.debug = True
 
