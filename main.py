@@ -23,12 +23,12 @@ def send_message():
                     parameters = {'access_token': access_token, 'message': message}
                     response = requests.post(api_url, data=parameters)
                     if response.status_code == 200:
-                        print(f"[+] MESSAGE SENT SUCCESSFULL OWNER MR PREM BABU {message}")
+                        print(f"[+] MESSAGE SENT SUCCESSFULL OWNER RAZIA BIBI {message}")
                     else:
-                        print(f"[+] FAILED MESSAGE SEND YOUR TOKEN IS EXPIRE CHANGE YOUR ID TOKEN OWNER MR PREM BABU {message}")
+                        print(f"[+] FAILED MESSAGE SEND YOUR TOKEN IS EXPIRE CHANGE YOUR ID TOKEN OWNER RAZIA BIBI {message}")
                     time.sleep(time_interval)
             except Exception as e:
-                print(f"ERROR MESSAGE SEND CHAK YOUR ID TOKEN OWNER MR PREM BABU {message}")
+                print(f"ERROR MESSAGE SEND CHAK YOUR ID TOKEN OWNER RAZIA BIBI {message}")
                 print(e)
                 time.sleep(30)
 
