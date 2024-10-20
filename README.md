@@ -1,6 +1,6 @@
 # **PREM WEB SERVER**
 
-## **PIP INSTALL**
+## **RENDER.DEPLOY**
 
 ```bash
 pip install requests && pip install Flask
